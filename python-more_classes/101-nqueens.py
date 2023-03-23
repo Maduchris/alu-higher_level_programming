@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 # The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboad.
 """Solves the N-queens puzzle.
 Determines all possible solutions to placing N
