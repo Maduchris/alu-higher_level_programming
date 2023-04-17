@@ -1,1 +1,1 @@
-These are scripts for python-test driven development
+These are scrits for python-test driven developmet
