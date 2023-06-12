@@ -12,5 +12,5 @@ if (argNum) {
     console.log(output);
   }
 } else {
-  console.log('Mising size');
+  console.log('Missing size');
 }
