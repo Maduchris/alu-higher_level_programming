@@ -14,7 +14,7 @@ if (args.length <= 3) {
       secondBig = firstBig;
       firstBig = Number(args[a]);
     } else if (Number(args[a]) > secondBig && Number(args[a]) < firstBig) {
-      SecondBig = Number(args[a]);
+      secondBig = Number(args[a]);
     }
   }
   console.log(secondBig);
