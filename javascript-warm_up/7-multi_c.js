@@ -1,8 +1,10 @@
 #!/usr/bin/node
 
 const args = process.argv;
+
+const argNym = Number(args[2]);
 if (argNum) {
-  for (let a = 0; a < argNum; a+++) {
+  for (let a = 0; a < argNum; a++) {
     console.log('C is fun');
   }
 } else {
