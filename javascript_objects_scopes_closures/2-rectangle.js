@@ -6,3 +6,6 @@ module.exports = class Rectangle {
       return this;
     }
     this.width = w;
+    this.height = h;
+  }
+};
