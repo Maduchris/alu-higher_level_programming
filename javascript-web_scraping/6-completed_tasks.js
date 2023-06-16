@@ -23,7 +23,7 @@ req.get(url, (err, res) => {
   const data = JSON.parse(res.body);
   data.forEach((element) => {
     if (!(element.userId in results)) {
-      if (getCompletedTasks(data,element.userId) > 0) {
+      if (getCompletedTasks(data, element.userId) > 0) {
         results[element.userId] = getCompletedTasks(data, element.userId);
       }
     }
