@@ -7,10 +7,10 @@ function getCompletedTasks (data, userId) {
     .filter((element) => element.userId === userId)
     .forEach((task) => {
       if (task.completed) {
-	count++;
+        count++;
       }
     });
-   return count;
+  return count;
 }
 
 const url = process.argv[2];
