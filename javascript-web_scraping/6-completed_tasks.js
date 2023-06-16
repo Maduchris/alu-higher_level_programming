@@ -1,4 +1,4 @@
-#!/usr/bi/node
+#!/usr/bin/node
 const req = require('request');
 
 function getCompletedTasks (data, userId) {
