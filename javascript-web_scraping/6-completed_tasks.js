@@ -10,7 +10,7 @@ function getCompletedTasks (data, userId) {
 	count++;
       }
     });
-  return count;
+   return count;
 }
 
 const url = process.argv[2];
@@ -23,8 +23,8 @@ req.get(url, (err, res) => {
   const data = JSON.parse(res.body);
   data.forEach((element) => {
     if (!(element.userId in results)) {
-      if (getCompletedTasks(data, element.userId) > 0) {
-	results[element.userId] = getCompletedTasks(data, element.userId);
+      if (getCompletedTasks(data,element.userId) > 0) {
+        results[element.userId] = getCompletedTasks(data, element.userId);
       }
     }
   });
